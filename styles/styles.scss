@@ -1,0 +1,27 @@
+$primary-color: #20d3e8;
+$secondary-color: greenyellow;
+$text-color: rgb(240, 248, 255);
+
+
+div {
+  display: flex;
+  justify-content: center;
+
+  p {
+    background-color: $primary-color;
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: $secondary-color;
+      color: black;
+    }
+
+  }
+
+}
